@@ -24,15 +24,9 @@ const Terms = (props) => {
         <div className="terms-container1">
           <div className="terms-container2">
             <div className="terms-container3">
-              <React.Fragment>
-                <React.Fragment>
-                  <div id="__enzuzo-root" />
-                  <Script
-                    id="__enzuzo-root-script"
-                    src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=tos&apiHost=https://app.enzuzo.com&qt=1703014279590&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTQyNjJ9.eXjC2n0NL_3Y6hFC1Z_JSFCEMSMUQYkVm-eCKZGedlQ"
-                  />
-                </React.Fragment>
-              </React.Fragment>
+              <Script
+                html={`<div id="__enzuzo-root"></div><script id="__enzuzo-root-script" src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=tos&apiHost=https://app.enzuzo.com&qt=1703014279590&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTQyNjJ9.eXjC2n0NL_3Y6hFC1Z_JSFCEMSMUQYkVm-eCKZGedlQ"></script>`}
+              ></Script>
             </div>
           </div>
         </div>

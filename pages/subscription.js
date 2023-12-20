@@ -24,15 +24,9 @@ const Subscription = (props) => {
         <div className="subscription-container1">
           <div className="subscription-container2">
             <div className="subscription-container3">
-              <React.Fragment>
-                <React.Fragment>
-                  <div id="__enzuzo-root" />
-                  <Script
-                    id="__enzuzo-root-script"
-                    src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=ssa&apiHost=https://app.enzuzo.com&qt=1703015695094&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTU2OTJ9.3HtfH_hZ2A_cA_5StEFjbTT4b2dunEygglVG9y41T1E"
-                  />
-                </React.Fragment>
-              </React.Fragment>
+              <Script
+                html={`<div id="__enzuzo-root"></div><script id="__enzuzo-root-script" src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=ssa&apiHost=https://app.enzuzo.com&qt=1703015695094&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTU2OTJ9.3HtfH_hZ2A_cA_5StEFjbTT4b2dunEygglVG9y41T1E"></script>`}
+              ></Script>
             </div>
           </div>
         </div>

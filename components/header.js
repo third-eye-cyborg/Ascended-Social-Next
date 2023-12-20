@@ -322,6 +322,8 @@ const Header = (props) => {
           .header-root-class-name6 {
             top: -1px;
             right: 0px;
+            width: 100%;
+            align-self: center;
           }
           @media (max-width: 991px) {
             .header-nav {

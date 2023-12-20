@@ -31,19 +31,10 @@ const Home = (props) => {
         <div className="home-container01">
           <div className="home-container02">
             <div className="home-container03">
-              <React.Fragment>
-                <React.Fragment>
-                  <Script
-                    src="https://static.elfsight.com/platform/platform.js"
-                    data-use-service-core=""
-                    defer={true}
-                  />
-                  <div
-                    className="elfsight-app-ecfdd8b9-f909-4f21-a251-fbb82436dbc0"
-                    data-elfsight-app-lazy=""
-                  />
-                </React.Fragment>
-              </React.Fragment>
+              <Script
+                html={`<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-ecfdd8b9-f909-4f21-a251-fbb82436dbc0" data-elfsight-app-lazy></div>`}
+              ></Script>
             </div>
           </div>
         </div>

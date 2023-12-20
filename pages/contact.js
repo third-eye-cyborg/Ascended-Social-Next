@@ -29,19 +29,10 @@ const Contact = (props) => {
               </span>
               <div className="contact-container02">
                 <div className="contact-container03">
-                  <React.Fragment>
-                    <React.Fragment>
-                      <Script
-                        src="https://static.elfsight.com/platform/platform.js"
-                        data-use-service-core=""
-                        defer={true}
-                      />
-                      <div
-                        className="elfsight-app-3e89cdb4-d942-4a25-89af-f33f39459b3b"
-                        data-elfsight-app-lazy=""
-                      />
-                    </React.Fragment>
-                  </React.Fragment>
+                  <Script
+                    html={`<script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
+<div class="elfsight-app-3e89cdb4-d942-4a25-89af-f33f39459b3b" data-elfsight-app-lazy></div>`}
+                  ></Script>
                 </div>
               </div>
               <div className="contact-container04">
@@ -175,6 +166,7 @@ const Contact = (props) => {
           }
           .contact-container02 {
             width: 100%;
+            height: 600px;
           }
           .contact-container03 {
             display: contents;
@@ -309,6 +301,10 @@ const Contact = (props) => {
           @media (max-width: 991px) {
             .contact-container01 {
               flex-direction: column;
+            }
+            .contact-container02 {
+              flex: 1;
+              height: unset;
             }
             .contact-info {
               padding-left: 0px;

@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://a334826.sitemaphosting.com/4405769/sitemap_4405769.xml

@@ -24,15 +24,9 @@ const DSAR = (props) => {
         <div className="dsar-container1">
           <div className="dsar-container2">
             <div className="dsar-container3">
-              <React.Fragment>
-                <React.Fragment>
-                  <div id="__enzuzo-root" />
-                  <Script
-                    id="__enzuzo-root-script"
-                    src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=data&apiHost=https://app.enzuzo.com&qt=1703013627223&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTM1NTF9.gLn8vhVL8y-boI4wLJNnJN3r-r8q8jpXsCgW52Y7j58"
-                  />
-                </React.Fragment>
-              </React.Fragment>
+              <Script
+                html={`<div id="__enzuzo-root"></div><script id="__enzuzo-root-script" src="https://app.enzuzo.com/__enzuzo-privacy-app.js?mode=data&apiHost=https://app.enzuzo.com&qt=1703013627223&referral=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJDdXN0b21lcklEIjoxODI3OSwiQ3VzdG9tZXJOYW1lIjoiY3VzdC1FU0RQdHVDSSIsIkN1c3RvbWVyTG9nb1VSTCI6IiIsIlJvbGVzIjpbInJlZmVycmFsIl0sIlByb2R1Y3QiOiJlbnRlcnByaXNlIiwiVmVyc2lvbiI6MCwiaXNzIjoiRW56dXpvIEluYy4iLCJuYmYiOjE3MDMwMTM1NTF9.gLn8vhVL8y-boI4wLJNnJN3r-r8q8jpXsCgW52Y7j58"></script>`}
+              ></Script>
             </div>
           </div>
         </div>

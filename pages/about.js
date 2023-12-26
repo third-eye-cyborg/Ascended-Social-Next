@@ -37,7 +37,7 @@ const About = (props) => {
                 <br></br>
               </p>
               <div className="about-container3">
-                <Link href="/subscription">
+                <Link href="/waiting-list">
                   <a className="about-link">
                     <SecondaryButton
                       button="Subscribe"

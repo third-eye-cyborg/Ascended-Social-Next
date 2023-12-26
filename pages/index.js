@@ -244,65 +244,7 @@ const Home = (props) => {
                 <br></br>
               </h1>
               <span className="home-text26">
-                <span className="home-text27">
-                  We would love for you to be a part of our partner program.
-                  Create memberships and get paid for your content. Monetize
-                  your hard work and build an engaging community of followers
-                  and fans. Here&apos;s how it works:
-                </span>
-                <br className="home-text28"></br>
-                <br className="home-text29"></br>
-                <span className="home-text30">
-                  First, you pay $5.00 per month or $50.00 for a year to become
-                  a premium user.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br className="home-text31"></br>
-                <br className="home-text32"></br>
-                <span className="home-text33">
-                  Then you create a subscription plan, choose a pricing
-                  structure, and define your purpose for your members to
-                  subscribe to. After that you can lock posts behind a paywall
-                  that only paid members can get past.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br className="home-text34"></br>
-                <br className="home-text35"></br>
-                <span className="home-text36">
-                  As long as you continue to pay for your premium account, you
-                  can keep all of your profits minus the costs associated to the
-                  transaction, taxes, and other minor applicable fees, learn
-                  more.
-                  <span
-                    dangerouslySetInnerHTML={{
-                      __html: ' ',
-                    }}
-                  />
-                </span>
-                <br className="home-text37"></br>
-                <br className="home-text38"></br>
-                <span className="home-text39">
-                  We make our money on through the premium account payment you
-                  make, so we don&apos;t cut into your profit, giving you a
-                  platform that scales to your audience not your bank account.
-                </span>
-                <br className="home-text40"></br>
-                <br className="home-text41"></br>
-                <span className="home-text42">
-                  All applicants must apply first. All applications will not be
-                  accepted. We reserve the right to deny an application for any
-                  reason. Rules, restrictions, and other conditions apply, learn
-                  more.
-                </span>
-                <br></br>
+                Our partner program is coming soon. 
               </span>
               <div className="home-container16">
                 <div className="home-container17">
@@ -339,16 +281,16 @@ const Home = (props) => {
         </section>
         <section id="learn more" className="home-contaier">
           <div className="home-container18">
-            <h2 className="home-text44 HeadingTwo">
+            <h2 className="home-text27 HeadingTwo">
               We are Here for You to Discover
             </h2>
-            <h3 className="home-text45 HeadingTwo">
-              <span className="home-text46">
+            <h3 className="home-text28 HeadingTwo">
+              <span className="home-text29">
                 Find New Spiritual Enlightenment
               </span>
               <br></br>
             </h3>
-            <span className="home-text48">
+            <span className="home-text31">
               Get inspired or be inspiring, either way, Ascended Social is there
               for you.
             </span>
@@ -363,8 +305,8 @@ const Home = (props) => {
                 />
               </div>
               <div className="home-container22">
-                <h1 className="home-text49 HeadingOne">Find Your Soul</h1>
-                <span className="home-text50">
+                <h1 className="home-text32 HeadingOne">Find Your Soul</h1>
+                <span className="home-text33">
                   Join our Newsletter for updates, news, releases, promotions,
                   and more.
                 </span>
@@ -417,11 +359,11 @@ const Home = (props) => {
             <div className="home-container26">
               <div className="home-container27"></div>
               <div className="home-container28">
-                <h1 className="home-text51">
+                <h1 className="home-text34">
                   <span>Get on our waiting-list</span>
                   <br></br>
                 </h1>
-                <span className="home-text54">Sign-up for early access</span>
+                <span className="home-text37">Sign-up for early access</span>
                 <Link href="/waiting-list">
                   <a className="home-link5">
                     <OutlineBlackButton
@@ -493,7 +435,7 @@ const Home = (props) => {
               0 8px 9px -5px hsla(0, 0%, 8%, 0.06) !important;
             margin-top: var(--dl-space-space-tripleunit);
             align-items: flex-start;
-            margin-left: 40px;
+            margin-left: var(--dl-space-space-doubleunit);
             border-radius: var(--dl-radius-radius-radius1);
             flex-direction: column;
             backdrop-filter: saturate(200%) blur(30px);
@@ -759,7 +701,7 @@ const Home = (props) => {
           .home-card1 {
             flex: 0 0 auto;
             width: 50%;
-            height: 1020px;
+            height: auto;
             display: flex;
             padding: var(--dl-space-space-tripleunit);
             z-index: 1;
@@ -866,20 +808,20 @@ const Home = (props) => {
             align-items: center;
             flex-direction: column;
           }
-          .home-text44 {
+          .home-text27 {
             margin-top: var(--dl-space-space-unitandahalfunit);
             background-image: linear-gradient(310deg, #7928ca, #ff0080);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
-          .home-text45 {
+          .home-text28 {
             color: var(--dl-color-secondary-600);
             margin-bottom: var(--dl-space-space-halfunit);
           }
-          .home-text46 {
+          .home-text29 {
             background-color: rgb(255, 255, 255);
           }
-          .home-text48 {
+          .home-text31 {
             color: rgb(103, 116, 142);
             font-weight: 400;
             background-color: rgb(255, 255, 255);
@@ -940,13 +882,13 @@ const Home = (props) => {
             justify-content: center;
             background-color: rgba(72, 72, 72, 0.51);
           }
-          .home-text49 {
+          .home-text32 {
             color: var(--dl-color-gray-white);
             max-width: 200px;
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text50 {
+          .home-text33 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
@@ -1028,13 +970,13 @@ const Home = (props) => {
             flex-direction: column;
             justify-content: center;
           }
-          .home-text51 {
+          .home-text34 {
             color: var(--dl-color-gray-white);
             max-width: 200px;
             text-align: center;
             margin-bottom: var(--dl-space-space-unit);
           }
-          .home-text54 {
+          .home-text37 {
             color: var(--dl-color-gray-white);
             margin-bottom: var(--dl-space-space-tripleunit);
           }
@@ -1159,90 +1101,10 @@ const Home = (props) => {
               margin-right: 0px;
               padding-right: 0px;
             }
-            .home-text27 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text28 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text29 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text30 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text31 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text32 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text33 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text34 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text35 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text36 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text37 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text38 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text39 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text40 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text41 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
-            .home-text42 {
-              text-align: center;
-              margin-right: 0px;
-              padding-right: 0px;
-            }
             .home-container18 {
               width: 80%;
             }
-            .home-text48 {
+            .home-text31 {
               text-align: center;
             }
             .home-container19 {
@@ -1295,6 +1157,7 @@ const Home = (props) => {
               height: auto;
               padding: 0px;
               margin-top: 0px;
+              margin-left: 0px;
               margin-right: 0px;
               margin-bottom: 0px;
             }
@@ -1338,7 +1201,7 @@ const Home = (props) => {
               margin-right: 0px;
               margin-bottom: var(--dl-space-space-unit);
             }
-            .home-text48 {
+            .home-text31 {
               text-align: center;
             }
           }

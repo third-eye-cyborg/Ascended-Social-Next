@@ -26,7 +26,7 @@ class CustomDocument extends Document {
           ></style>
           <link
             rel="shortcut icon"
-            href="/ascended-social-icon-only.png"
+            href="/favicon-16x16.png"
             type="icon/png"
             sizes="32x32"
           ></link>
